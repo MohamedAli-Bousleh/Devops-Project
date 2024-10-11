@@ -18,11 +18,6 @@
     - name: build docker image using the Dockerfile
       command: docker build -t mohamedalibousleh/enjoy-mywebsite .
 
-    - name: Log into DockerHub
-      docker_login:
-        username: mohamedalibousleh
-        password: 2216270108101987User&%
-
     - name: Push Image to dockerhub
       command: docker push mohamedalibousleh/enjoy-mywebsite
 

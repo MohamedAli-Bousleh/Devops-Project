@@ -18,7 +18,7 @@
     - name: build docker image using the Dockerfile
       command: docker build -t mohamedalibousleh/enjoy-mywebsite .
 
-      - name: Push Image to dockerhub
+    - name: Push Image to dockerhub
       command: docker push mohamedalibousleh/enjoy-mywebsite
 
     - name: run container
